@@ -10,7 +10,7 @@ exports.run = (bot, message, args) => {
 
     let failure = new Discord.RichEmbed()
         .setColor("#ff0000")
-        .addField("❌", "You do not have permission to execute this command!", true)
+        .setDescription("❌ You do not have permission to execute this command!")
         .setTimestamp();
 
     if (message.author.id !== bot.config.ownerID) return message.channel.send(failure);
