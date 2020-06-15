@@ -23,7 +23,7 @@ exports.run = async (bot, message) => {
                 .addField("Client Tag", userinfoui.tag, true)
                 .addField("Username", userinfoui.uname, true)
                 .addField("Roles", rolesOfTheMemberui, true)
-                .setColor(0x92FECB)
+                .setColor("#f9f9f9")
                 .setTitle("About this user...")
                 .setThumbnail(userinfoui.avatar)
                 .setTimestamp(Date.now())

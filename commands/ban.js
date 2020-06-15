@@ -6,7 +6,7 @@ exports.run = async (bot, message, args) => {
 
     let notspecified = new Discord.RichEmbed()
         .addField("❓ You need to specify a user that is in the server.")
-        .setColor("#ffffff")
+        .setColor("#f9f9f9")
         .setAuthor(message.guild.me.user.tag)
         .setFooter('Embedded by ' + message.guild.me.user.username, 'https://i.imgur.com/mT3u9Lg.png')
         .setTimestamp();

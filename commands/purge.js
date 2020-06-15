@@ -14,7 +14,7 @@ exports.run = async (bot, message, args) => {
         .setTimestamp();
 
     let noargs = new Discord.RichEmbed()
-        .setColor("#ffffff")
+        .setColor("#f9f9f9")
         .setDescription("❓ Supply an amount of messages to delete.")
         .setFooter('Embedded by ' + message.guild.me.user.username, 'https://i.imgur.com/mT3u9Lg.png')
         .setAuthor(message.guild.me.user.tag)
