@@ -1,0 +1,16 @@
+{
+  "name": "discordjstest",
+  "version": "1.0.0",
+  "description": "test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "epic",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "enmap": "^5.0.0",
+    "fs": "0.0.1-security"
+  }
+}

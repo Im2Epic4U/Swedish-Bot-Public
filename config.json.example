@@ -1,0 +1,12 @@
+{
+    "token": "bot token goes here",
+    "prefix": "desired prefix goes here",
+    "ver": "version of the bot goes here (can be anything you like)",
+    "welcomechannel": "where the bot sends messages for welcoming new users",
+    "ownerID": "the user ID of the owner of the bot",
+    "martinID": "martin L's user ID, just set this to the same thing you set for ownerID",
+    "ruleschannel": "this is where you put the channel ID for the channel your rules are in",
+    "SAFC": "put the role ID of any mod role here",
+    "AAFC": "put the role ID of any mod role here",
+    "dev": "put the role ID of any mod role here"
+}
